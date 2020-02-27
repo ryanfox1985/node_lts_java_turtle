@@ -1,4 +1,4 @@
-FROM node:12.14.0
+FROM node:12.16.1
 MAINTAINER Guillermo Guerrero 'wolf.fox1985@gmail.com'
 
 RUN apt-get update -qq && apt-get install -y default-jdk
